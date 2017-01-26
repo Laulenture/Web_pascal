@@ -1,0 +1,62 @@
+<!--Document au format HTML5-->
+<!DOCTYPE htlm>
+<htlm>
+	<head>
+		<meta charset="uft-8" />
+		<title>Pascal en bref</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+	<header>
+		<img class="logo" src="images/pascal2.jpg">
+		<h1 class="titre">PASCAL</h1>
+		<h2 class="titre">Le language en bref</h2>
+	</header>
+	
+	<nav>
+		<a class='nav' href="index.html">1/ Généralités</a>
+		<a class='nav' href="var.html">2/ Les variabales</a>
+		<a class='nav' href="const.html">3/ Les constantes</a>
+		<a class='nav' href="commande.html">4/ Les commandes de bases</a>
+		<a class='nav' href="boucle.html">5/ Les boucles</a>
+		<a class='nav' href="fonction.html">6/ Les fonctions et procedures</a>
+		<a class='nav' href="type.html">7/ Les Type et enregistrements</a>
+	</nav>
+	
+	<section>
+	<aside>
+	</aside>
+	<article>
+		<h1>Les commandes de bases</h1>
+		<h2>Write et Writeln</h2>
+		<p>La commande Write permet d'afficher du texte et de laisser le curseur à la fin du texte affiché. Cette instruction permet
+			d'afficher des chaînes de caractères n'excédant pas 255 signes ainsi que des valeurs de variables, de constantes,
+			de types... Le texte doit être entre apostrophes. Si le texte à afficher contient une apostrophe, il faut alors la doubler.
+			Les différents noms de variables doivent êtres séparés par des virgules.</p>
+		<p>La commande WriteLn est semblable à la précédente à la différence près que le curseur est maintenant renvoyé au
+			début de la ligne suivante.</p>
+		<h3>Syntaxe:</h3>
+		<p>Write ('Texte à afficher', variable1, variable2, 'texte2');</p><br/>
+		<h2>Read et Readln</h2>
+		<p>La commande Read permet à l'utilisateur de rentrer une valeur qui sera utilisée par le programme. Cette instruction
+			ne provoque pas de retour chariot, c'est-à-dire que le curseur ne passe pas à la ligne.</p>
+		<p>La commande ReadLn permet à l'utilisateur d'entrer une valeur qui sera utilisée par le programme. Cette instruction
+			provoque le retour chariot, c'est-à-dire que le curseur passe au début de la ligne suivante. Lorsqu'aucune variable
+			n'est affectée à la commande, il suffit de presser sur Entrée.</p>
+		<h3>Syntaxe:</h3>
+		<p>Write ('Texte à afficher', variable1, variable2, 'texte2');</p><br/>
+		<h2>IF..THEN..ELSE..</h2>
+		<p>Cette commande permet d'éxecuter une ou un groupe de fonction plutot qu'un(e) autre en fonction de la valeur d'une variable.<p><br/>
+		<h3>CASE..OF..END</h3>
+		<p>Cette instruction compare la valeur d'une variable de type scalaire à tout un tas d'autres valeurs constantes.<p><br/>
+	</article>
+	</section>
+	</body>
+	
+	<footer>
+		<h3>Pages suivante et précedante</h3>
+		<a class='nav' href="const.html">3/ Les constantes</a>
+		<a class='nav' href="boucle.html">5/ Les boucles</a>
+	</footer>
+</htlm>

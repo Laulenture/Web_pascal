@@ -1,0 +1,64 @@
+﻿<!--Document au format HTML5-->
+<!DOCTYPE htlm>
+<htlm>
+	<head>
+		<meta charset="uft-8" />
+		<title>Pascal en bref</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+	<header>
+		<img class="logo" src="images/pascal2.jpg">
+		<h1 class="titre">PASCAL</h1>
+		<h2 class="titre">Le language en bref</h2>
+	</header>
+	
+	<nav>
+		<a class='nav' href="index.html">1/ Généralités</a>
+		<a class='nav' href="var.html">2/ Les variabales</a>
+		<a class='nav' href="const.html">3/ Les constantes</a>
+		<a class='nav' href="commande.html">4/ Les commandes de bases</a>
+		<a class='nav' href="boucle.html">5/ Les boucles</a>
+		<a class='nav' href="fonction.html">6/ Les fonctions et procedures</a>
+		<a class='nav' href="type.html">7/ Les Type et enregistrements</a>
+	</nav>
+	
+	<section>
+	<aside>
+	</aside>
+	<article>
+		<h1>1/ Généralités</h1>
+		<h2>Architecture standard en Pascal</h2>
+		<p>{ Les commentaires peuvent êtres entre accolades... }</p>
+		<p>Program { nom de programme } ;</p>
+		<p>Uses { unités utilisées } ;</p>
+		<p>Const { déclaration de constantes } ;</p>
+		<p>Type { déclaration de types } ;</p>
+		<p>Var { déclaration de variables } ;</p>
+		<p>Function { déclaration de fonction } ;</p>
+		<p>Procedure { déclaration de procédure } ;</p>
+		<p>BEGIN { début du programme principal }</p>
+		<p>{ Le corps du programme principal }</p>
+		<p>END.</p>
+		<br/>
+		<h2>Grammaire du Pascal</h2>
+		<li>Un nom de programme respecte les règles liées aux identificateurs (cf. plus bas) et ne peut pas contenir le
+			caractère point ".".</li><br/>
+		<li>Un programme principal débute toujours par BEGIN et se termine par END. (avec un point). Alors qu'un sousprogramme
+			(ou fonction, procédure, bloc conditionnel...) commence lui aussi par Begin mais se termine par
+			End; (sans point mais avec un point-virgule).</li><br/>
+		<li>Chaque instruction doit se terminer avec un point-virgule. Il n'y a pas d'exception à la règle hormis Begin et
+			l'instruction précédant End ou Else.</li><br/>
+		<li>Il est permis de mettre plusieurs instructions les unes à la suite des autres sur une même ligne du fichier
+			source mais il est recommandé de n'en écrire qu'une par ligne : c'est plus clair et en cas de bogue, on s'y
+			retrouve plus aisément. De plus, s'il vous arrive d'écrire une ligne trop longue, le compilateur vous le signifiera.</li>
+	</article>
+	</section>
+	</body>
+	
+	<footer>
+		<h3>Pages suivante</h3>
+		<a class='nav' href="var.html">2/ Les variabales</a>
+	</footer>
+</htlm>

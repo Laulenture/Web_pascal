@@ -1,0 +1,56 @@
+<!--Document au format HTML5-->
+<!DOCTYPE htlm>
+<htlm>
+	<head>
+		<meta charset="uft-8" />
+		<title>Pascal en bref</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+	<header>
+		<img class="logo" src="images/pascal2.jpg">
+		<h1 class="titre">PASCAL</h1>
+		<h2 class="titre">Le language en bref</h2>
+	</header>
+	
+	<nav>
+		<a class='nav' href="index.html">1/ Généralités</a>
+		<a class='nav' href="var.html">2/ Les variabales</a>
+		<a class='nav' href="const.html">3/ Les constantes</a>
+		<a class='nav' href="commande.html">4/ Les commandes de bases</a>
+		<a class='nav' href="boucle.html">5/ Les boucles</a>
+		<a class='nav' href="fonction.html">6/ Les fonctions et procedures</a>
+		<a class='nav' href="type.html">7/ Les Type et enregistrements</a>
+	</nav>
+	
+	<section>
+	<aside>
+	</aside>
+	<article>
+		<h1>4/ Les constantes</h1>
+		<p>Dans un programme, il est indispensable d'utiliser des constantes si on veut écrire du code aisément maintenable
+			et modifiable. Il faut systématiquement faire la chasse aux "nombres magiques", qui sont les valeurs numériques
+			apparaissant en clair dans le code. De plus, il est souvent nécessaire d'avoir des valeurs de référence ou des
+			conditions initiales, au lieu d'affectations en début de programme. Alors, pour alléger le code et pour améliorer la
+			lisibilité et surtout la compréhension générale du programme, il est préférable d'avoir recours à des constantes.</p>
+		<p>Une constante, pour être connue de tous les sous-programmes, doit être déclarée avant ces derniers. Si une
+			constante est déclarée après une fonction, pour que cette fonction puisse l'utiliser, la constante doit être passée en
+			paramètre à la fonction. Une constante déclarée avant tous les sous-programmes n'a pas besoin d'être passée en
+			paramètre à ces derniers pour y être utilisée (c'est le même principe que pour les variables, fonctions, procédures
+			paramétrées et types).</p>
+		<p>Comme son nom l'indique, une constante ne change pas de valeur au cours du programme, une valeur de départ lui
+			est affectée dès sa déclaration avant le code exécutable. C'est l'opérateur = qui affecte une valeur à une constante
+			après que cette dernière se soit vue affecter un identificateur par l'utilisation du mot réservé Const.</p>
+		<h3>Syntaxe:</h3>
+		<p>Const identificateur_de_la_constante = valeur;</p>
+	</article>
+	</section>
+	</body>
+	
+	<footer>
+		<h3>Pages suivante et précedante</h3>
+		<a class='nav' href="var.html">2/ Les variabales</a>
+		<a class='nav' href="commande.html">4/ Les commandes de bases</a>
+	</footer>
+</htlm>

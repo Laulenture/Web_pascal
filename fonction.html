@@ -1,0 +1,80 @@
+<!DOCTYPE htlm>
+<htlm>
+	<head>
+		<meta charset="uft-8" />
+		<title>Pascal en bref</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+	<header>
+		<img class="logo" src="images/pascal2.jpg">
+		<h1 class="titre">PASCAL</h1>
+		<h2 class="titre">Le language en bref</h2>
+	</header>
+	
+	<nav>
+		<a class='nav' href="index.html">1/ Généralités</a>
+		<a class='nav' href="var.html">2/ Les variabales</a>
+		<a class='nav' href="const.html">3/ Les constantes</a>
+		<a class='nav' href="commande.html">4/ Les commandes de bases</a>
+		<a class='nav' href="boucle.html">5/ Les boucles</a>
+		<a class='nav' href="fonction.html">6/ Les fonctions et procedures</a>
+		<a class='nav' href="type.html">7/ Les Type et enregistrements</a>
+	</nav>
+	
+	<section>
+	<aside>
+	</aside>
+	<article>
+		<h1>6/ Les fonctions et procedures</h1>
+		<h2>Les Procédures</h2>
+		<p>Les procédures et fonctions sont des sortes de sous-programmes écrits avant le programme principal mais appelés depuis ce programme principal, d'une autre procédure ou d'une autre fonction
+			Une procédure peut utiliser des variables globales, définies par le programme principal, c'est-à-dire que ces variables sont valables pour tout le programme et accessibles partout dans le programme principal mais aussi dans les procédures et fonctions qui auront été déclarées après. La déclaration des variables se fait alors avant la déclaration de la procédure, pour qu'elle puisse les utiliser. Car une procédure déclarée avant les variables ne peut pas connaître leur existence et ne peut donc pas les utiliser.</p>
+		<h3>Syntaxe:</h3>
+		<p>Syntaxe de la procédure : <br/>
+			Program nom_de_programme;<br/>
+			Var variable : type;<br/>
+			Procedure nom_de_procedure;<br/>
+			Begin<br/>
+			...<br/>
+			...<br/>
+			End;<br/>
+			BEGIN<br/>
+			...<br/>
+			nom_de_procedure;<br/>
+			...<br/>
+			END.<br/>
+
+			Les fonctions<br/>
+			Contrairement aux procédures, les fonctions renvoient directement un résultat. Elles sont appelées à partir du programme principal, d'une procédure ou d'une autre fonction<br/>
+
+			Function nom_de_fonction : type;<br/>
+			Var { déclaration de variables locales }<br/>
+			Begin<br/>
+			...<br/>
+			nom_de_fonction := une_valeur;<br/>
+			End;</p><br/>
+		<h2>Les fonctions</h2>
+		<p>Contrairement aux procédures, les fonctions renvoient directement un résultat. Elles sont appelées à partir du programme principal, d'une procédure ou d'une autre fonction</p>
+		<h3>Syntaxe:</h3>
+		<p>Function nom_de_fonction : type;<br/>
+			Var { déclaration de variables locales }<br/>
+			Begin<br/>
+			...<br/>
+			nom_de_fonction := une_valeur;<br/>
+			End;</p><br/>
+		<h2>WHILE..DO..</h2>
+		<p>Ce type de boucle, contrairement à la précédente, évalue une condition avant d'exécuter des instructions.</p>
+		<h3>Syntaxe:</h3>
+		<p>While condition_est_vraie do {instruction};</p><br/>
+	</article>
+	</section>
+	</body>
+	
+	<footer>
+		<h3>Pages suivante et précedante</h3>
+		<a class='nav' href="boucle.html">5/ Les boucles</a>
+		<a class='nav' href="type.html">7/ Les Type et enregistrements</a>
+	</footer>
+</htlm>

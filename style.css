@@ -1,0 +1,63 @@
+/*
+Theme Name: Theme site ludus1B
+theme URI: Ludus1B.com
+Author: Lucas Aulen
+Description: Theme css site web ludus1B
+Version: 1.0
+License: Ludus1B
+Licence URI: Ludus1B.com
+Text Domain: ludus1B
+*/
+
+/*Taille absolue en px, cm, mm, (déconseillé car le taille peut trop petite pour certains utilisateurs)
+
+Taille relative en pourcentage, em ou ex, technique plus souple s'adapte aux référence de l'utilisateurs
+
+Valeur relative :
+
+xx-small
+x-small
+small
+medium
+large
+x-large
+xx-large
+
+*/
+
+/* Général */
+
+body{
+	background-color: #0B0B61;
+	/*color: white;*/
+	background-image: url("images/fond.jpg");
+	/*background-repeat: repeat-y;*/
+	background-repeat: repeat;
+	background-attachment: scroll;
+	/*background-position: 30px 50px;*/
+	/*background-position: top right;*/
+
+	}
+
+.titre{
+	margin:10px;	
+	}
+	
+.logo{
+	width:500px;
+}
+
+.nav{
+	 display: block;
+	text-align:center;
+	/*margin:auto;*/
+	/*border: 3px inset;*/
+	/*border-radius: 10px;*/
+	/*border-radius: 10px 15px 20px 5px;*/
+	border-color: black;
+	background-color: #D8D8D8;
+	box-shadow: 12px 12px 0px #585858;
+	text-shadow: 2px 2px 4px gray;
+	width: 75%;
+	font-family: 'Arial';
+}
